@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="todo">marhaban</string>
+    <string name="hanafi">Imam Hanafi</string>
+    <string name="maliki">Imam Maliki</string>
+    <string name="safie">Imam Syafie</string>
+    <string name="hamidi">Imam Hamidi</string>
+    <string name="judul">TODO</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maliki">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAM MALIKI" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/maliki" />
+
+        <TextView
+            android:id="@+id/parag1"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/imageView"
+            android:padding="10dp"
+            android:text="Mazhab ini didirikan oleh Imam Malik bin Anas bin Abi Amir Al-Ashbahi (93 – 179H).Berkembang sejak awal di kota Madinah dalam urusan fiqh."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/parag2"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/parag1"
+            android:padding="10dp"
+            android:text="Artinya: “…Mazhab ini ditegakkan di atas doktrin untuk merujuk dalam segala sesuatunya kepada hadits Rasulullah SAW dan praktek penduduk Madinah."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/parag3"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/parag2"
+            android:padding="10dp"
+            android:text="     Mazhab ini adalah kebalikan dari mazhan Al-Hanafiyah."
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

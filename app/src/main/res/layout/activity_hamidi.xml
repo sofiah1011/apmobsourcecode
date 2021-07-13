@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hamidi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAM HAMIDI" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/hamidi" />
+
+        <TextView
+            android:id="@+id/hamidi"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_below="@id/imageView"
+            android:padding="10dp"
+            android:text="Didirikan oleh Imam Ahmad bin Hanbal Asy Syaibani (164 – 241 H). Dilahirkan di Baghdad dan tumbuh besar di sana hingga meninggal pada bulan Rabiul Awal. Beliau memiliki pengalaman perjalanan mencari ilmu di pusat-pusat ilmu, seperti Kufah, Bashrah, Mekah, Madinah, Yaman, Syam."
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:id="@+id/amanah"
+            android:layout_below="@id/hamidi"
+            android:padding="10dp"
+            android:text="Dasar madzhab Ahmad adalah Al-Quran, Sunnah, fatwah sahahabat, Ijam’, Qiyas, Istishab, Maslahah mursalah, saddudzarai’."
+             android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

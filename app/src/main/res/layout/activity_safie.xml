@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".safie">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAM SYAFI'I" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/safie" />
+
+        <TextView
+            android:id="@+id/parag1"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/imageView"
+            android:padding="10dp"
+            android:text="Didirikan oleh Muhammad bin Idris Asy Syafi’i (150 – 204 H). Beliau dilahirkan di Gaza Palestina (Syam) tahun 150 H, tahun wafatnya Abu Hanifah dan wafat di Mesir tahun 203 H."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/parag2"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/parag1"
+            android:padding="10dp"
+            android:text="Artinya: “…Dasar madzhabnya: Al-Quran, Sunnah, Ijma’ dan Qiyas. Beliau tidak mengambil perkataan sahabat karena dianggap sebagai ijtihad yang bisa salah. Beliau juga tidak mengambil Istihsan (menganggap baik suatu masalah) sebagai dasar madzhabnya, menolak maslahah mursalah dan perbuatan penduduk Madinah."
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>

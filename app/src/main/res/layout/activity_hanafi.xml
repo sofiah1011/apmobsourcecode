@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hanafi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAM HANAFI" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/hanafi" />
+
+        <TextView
+            android:id="@+id/jaiz"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/imageView"
+            android:padding="10dp"
+            android:text="Didirikan oleh An-Nu’man bin Tsabit atau lebih dikenal sebagai Imam Abu Hanifah. Beliau berasal dari Kufah dari keturunan bangsa Persia. Beliau hidup dalam dua masa, Daulah Umaiyah dan Abbasiyah. Beliau termasuk pengikut tabiin , sebagian ahli sejarah menyebutkan, ia bahkan termasuk Tabi’in"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ayat"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_below="@id/jaiz"
+            android:padding="10dp"
+            android:text="Artinya: “…Karena beliau sangat berhati-hati dalam menerima sebuah hadits. Bila beliau tidak terlalu yakin atas keshahihah suatu hadits, maka beliau lebih memlih untuk tidak menggunakannnya."
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>
